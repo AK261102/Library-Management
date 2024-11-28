@@ -5,6 +5,7 @@
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Live Demo](#live-demo)
+- [Testing and Dummy User](#Testing-and-Dummy-User)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -22,14 +23,34 @@ M-Lib simplifies library management by allowing users to add books, issue books,
 - **Frontend**: [M-Lib Frontend](https://m-lib.netlify.app/)
 - **Backend**: [M-Lib Backend](https://vrv-backend-gh86.onrender.com)
 
+## Testing-and-Dummy-User
+- Dummy Admin User
+  
+   Email : admin@gmail.com
+   
+   Password : 123456
+   
+- Dummy Librarian User
+  
+   Email : librarian@gmail.com
+   
+   Password : 123456
+   
+- Dummy Member User
+  
+   Email : member@gmail.com
+   
+   Password : 123456
+
 ## Features
-- **Role-based Access**:
-  - **Admin**: Can manage books, add/remove users, and oversee overall operations.
-  - **Librarian**: Can view books, issue books to members, and manage borrowed books.
-  - **Member**: Can browse books, borrow, and return them as needed.
-- **Book Management**: Add, view, and delete books with a user-friendly interface.
-- **Authentication**: Secure login and role management for admins, librarians, and members.
-- **Search & Filter**: Easily search by title or author.
+- *Role-based Access*:
+  - *Admin*: Can manage books, add/remove users, and oversee overall operations.
+  - *Librarian*: Can view books, issue books to members, and manage borrowed books.
+  - *Member*: Can browse books, borrow, and return them as needed. The borrow and read features had not been implemented as of now, since the project was meant to implement role based user access.
+- *Book Management*: Add, view, and delete books with a user-friendly interface.
+- *Middlewares*: 2 middlewares -> Protect(for Token authentication) and Verify Role(for Role Based Access and Security).
+- *Authentication*: Secure login and role management for admins, librarians, and members using JWT.
+- *Search*: Easily search books by title.
 
 ## Technologies Used
 - **Frontend**: React, Material UI, Netlify for deployment
