@@ -29,7 +29,7 @@ M-Lib simplifies library management by allowing users to add books, issue books,
   - **Member**: Can browse books, borrow, and return them as needed.
 - **Book Management**: Add, view, and delete books with a user-friendly interface.
 - **Authentication**: Secure login and role management for admins, librarians, and members.
-- **Search & Filter**: Easily search and filter books by title or author.
+- **Search & Filter**: Easily search by title or author.
 
 ## Technologies Used
 - **Frontend**: React, Material UI, Netlify for deployment
