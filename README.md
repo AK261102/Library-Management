@@ -1,6 +1,6 @@
 # M-Lib: Library Management System
 
-![M-Lib Logo](https://via.placeholder.com/150)
+![M-Lib Logo](https://thumbs.dreamstime.com/b/online-publisher-library-app-logo-design-vector-233288881.jpg)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
