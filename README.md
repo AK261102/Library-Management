@@ -10,7 +10,6 @@
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -50,7 +49,7 @@ To get a local copy up and running, follow these simple steps.
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/AK261102/Library-Management.git
    ```
 2. Navigate to the project directory:
    ```sh
